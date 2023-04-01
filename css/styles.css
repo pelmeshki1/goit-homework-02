@@ -1,0 +1,216 @@
+:root {
+  /* Text colors */
+  --main-color: #2e2f42;
+  --light-txt-color: #ffffff;
+}
+
+/* base styles */
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+/* address */
+.link {
+  list-style: none;
+}
+.address-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #8e8f99;
+}
+
+/* logo header*/
+.accent-header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #2e2f42;
+}
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+/* logo footer */
+.accent-footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #ffffff;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.footer-text {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+/* Navigation */
+.navigation {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.navigation-item {
+  text-decoration: none;
+}
+.navigation-list {
+  list-style: none;
+}
+
+/* Header 1 */
+.hero {
+  background-color: #2e2f42;
+}
+.section-hero {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: #404bbf;
+}
+/* Company advanteges */
+.advanteges-list {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.list-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+/* Header 2 */
+.header-2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+/* Header 3 */
+.header-3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.work {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+/* Portfolio exemple work */
+.exemple-work {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.work-kind {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.portfolio-list {
+  list-style: none;
+}
+/* button portfolio */
+.portfolio-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #f4f4fd;
+}
+
+.portfolio-btn-general {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-btn-general:hover,
+.portfolio-btn-general:focus {
+  color: #404bbf;
+}
