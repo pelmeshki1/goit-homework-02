@@ -11,7 +11,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* address */
 .link {
@@ -45,10 +46,11 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 /* Footer */
 .footer {
@@ -76,9 +78,10 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #ffffff;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: uppercase;
 }
 /* Navigation */
 .navigation {
