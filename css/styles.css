@@ -4,6 +4,7 @@
   --light-txt-color: #ffffff;
   --color: #4d5ae5;
   --background: #f4f4fd;
+  --premium-color: #434455;
 }
 
 /* base styles */
@@ -219,21 +220,21 @@ body {
   background-color: #ffffff;
 }
 /* Portfolio exemple work */
-.exemple-work {
+.text-portfolio {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 2%;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
-.work-kind {
+.text-main-work {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--premium-color);
 }
 .portfolio-list {
   list-style: none;
