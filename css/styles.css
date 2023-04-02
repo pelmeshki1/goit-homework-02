@@ -19,6 +19,9 @@ body {
   list-style: none;
 }
 /* address */
+.address-mail-phone {
+  font-style: normal;
+}
 .link {
   list-style: none;
   text-decoration: none;
