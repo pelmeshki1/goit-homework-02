@@ -14,6 +14,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+/* defoul class list */
+.list {
+  list-style: none;
+}
 /* address */
 .link {
   list-style: none;
@@ -64,7 +68,7 @@ body {
   background-color: #2e2f42;
 }
 /* logo footer */
-.footer-logo .link {
+.footer-logo link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -73,7 +77,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-.accent-footer-logo .link {
+.accent-footer-logo link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -128,7 +132,7 @@ body {
   letter-spacing: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 .btn:hover,
@@ -153,7 +157,7 @@ body {
   color: #434455;
 }
 /* Header 2 */
-.header-2 {
+.header-text {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -177,7 +181,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.header-3 {
+.name-person {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -191,7 +195,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 /* Portfolio exemple work */
