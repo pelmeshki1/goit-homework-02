@@ -168,6 +168,9 @@ body {
   color: #2e2f42;
 }
 /* Header 3 */
+.our-team-list {
+  background-color: #ffffff;
+}
 .section-team {
   background-color: #f4f4fd;
 }
