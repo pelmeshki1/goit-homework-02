@@ -83,7 +83,7 @@ body {
   text-transform: uppercase;
   color: var(--color);
 }
-.accent-footer-logo link {
+.accent-footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
