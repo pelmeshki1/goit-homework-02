@@ -89,7 +89,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  color: var(--background);
   text-transform: uppercase;
 }
 .footer-text {
