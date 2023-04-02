@@ -81,7 +81,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color);
 }
 .accent-footer-logo link {
   font-family: Raleway, sans-serif;
@@ -89,7 +89,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--background);
+  color: #f4f4fd;
   text-transform: uppercase;
 }
 .footer-text {
