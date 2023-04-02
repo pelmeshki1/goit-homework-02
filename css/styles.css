@@ -2,6 +2,7 @@
   /* Text colors */
   --main-color: #2e2f42;
   --light-txt-color: #ffffff;
+  --color: #4d5ae5;
 }
 
 /* base styles */
@@ -53,7 +54,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--color)
   text-decoration: none;
   text-transform: uppercase;
 }
