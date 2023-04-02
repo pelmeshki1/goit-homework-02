@@ -20,6 +20,9 @@ body {
   list-style: none;
 }
 /* address */
+.address-mail-phone {
+  font-style: normal;
+}
 .link {
   list-style: none;
   text-decoration: none;
@@ -58,13 +61,6 @@ body {
   text-transform: uppercase;
   color: var(--color);
 }
-.header-logo:hover {
-  color: #404bbf;
-}
-.header-logo:focus {
-  color: #404bbf;
-}
-
 /* Footer */
 .footer {
   font-family: Raleway, sans-serif;
