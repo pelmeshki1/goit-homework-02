@@ -107,7 +107,9 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .btn {
@@ -115,9 +117,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   cursor: pointer;
 }
 .btn:hover,
@@ -130,7 +133,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .list-text {
@@ -138,7 +141,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 /* Header 2 */
@@ -146,25 +149,41 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 /* Header 3 */
+.section-team {
+  background-color: #f4f4fd;
+}
+.section-team-header {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .header-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .work {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02;
   color: #434455;
 }
 /* Portfolio exemple work */
