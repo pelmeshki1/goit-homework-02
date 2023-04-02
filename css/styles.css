@@ -17,6 +17,7 @@ body {
 /* address */
 .link {
   list-style: none;
+  text-decoration: none;
 }
 .address-link {
   font-family: Roboto;
@@ -57,22 +58,23 @@ body {
   background-color: #2e2f42;
 }
 /* logo footer */
-.accent-footer-logo {
+.footer-logo link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-  color: #ffffff;
-}
-.footer-logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
-  text-decoration: none;
+  text-transform: uppercase;
+}
+.accent-footer-logo link {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: uppercase;
 }
 .footer-text {
   font-family: Roboto, sans-serif;
