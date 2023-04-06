@@ -6,25 +6,33 @@
   --background: #f4f4fd;
   --premium-color: #434455;
 }
-
-/* base styles */
+/**
+  |============================
+  | BASE STYLES
+  |============================
+*/
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: #434455;
   background-color: #ffffff;
 }
-/* defoul class list */
+/* defoult class list */
 .list {
   list-style: none;
 }
-/* address */
-.address-mail-phone {
-  font-style: normal;
-}
+
 .link {
   list-style: none;
   text-decoration: none;
+  font-style: normal;
+}
+/**
+  |============================
+  | ADDRESS
+  |============================
+*/
+.address-mail-phone {
   font-style: normal;
 }
 .address-link {
@@ -42,7 +50,11 @@ body {
   color: #404bbf;
 }
 
-/* logo header*/
+/**
+  |============================
+  | LOGO HEADER
+  |============================
+*/
 .accent-header-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -61,7 +73,11 @@ body {
   text-transform: uppercase;
   color: var(--color);
 }
-/* Footer */
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
 .footer {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -99,7 +115,11 @@ body {
   color: #f4f4fd;
   text-transform: uppercase;
 }
-/* Navigation */
+/**
+  |============================
+  |NAVIGATION 
+  |============================
+*/
 .navigation {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -126,7 +146,11 @@ body {
   list-style: none;
 }
 
-/* Header 1 */
+/**
+  |============================
+  | HERO (SECTION 1)
+  |============================
+*/
 .hero {
   background-color: #2e2f42;
 }
@@ -154,7 +178,11 @@ body {
 .btn:focus {
   background-color: #404bbf;
 }
-/* Company advanteges */
+/**
+  |============================
+  | COMPANY ADVANTAGES (SECTION 2)
+  |============================
+*/
 .advanteges-list {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -171,7 +199,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* Header 2 */
+/**
+  |============================
+  | WHAT ARE WE DOING (SECTION 3)
+  |============================
+*/
 .header-text {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -182,7 +214,11 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-/* Header 3 */
+/**
+  |============================
+  | TEAM MEMBERS (SECTION 4)
+  |============================
+*/
 .our-team-list {
   background-color: #ffffff;
 }
@@ -217,6 +253,11 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+/**
+  |============================
+  | PORTFOLIO
+  |============================
+*/
 /* Portfolio exemple work */
 .text-portfolio {
   font-family: Roboto;
@@ -237,7 +278,11 @@ body {
 .portfolio-list {
   list-style: none;
 }
-/* button portfolio */
+/**
+  |============================
+  | BUTTONS FILTER
+  |============================
+*/
 .filter-all {
   font-family: Roboto, sans-serif;
   font-size: 16px;
